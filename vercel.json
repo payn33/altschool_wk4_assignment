@@ -1,4 +1,9 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/", "destination": "/public/index.html" },
+    { "source": "/table", "destination": "/public/table.html" },
+    { "source": "/media", "destination": "/public/media.html" }
+  ]
 }
